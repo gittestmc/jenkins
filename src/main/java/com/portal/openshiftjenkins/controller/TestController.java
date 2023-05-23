@@ -8,6 +8,6 @@ public class TestController {
 
 	@GetMapping("/hello")
 	public String ping() {
-		return "Openshift Pipe Line Testing";
+		return "Hey man. Openshift Pipe Line Testing";
 	}
 }
